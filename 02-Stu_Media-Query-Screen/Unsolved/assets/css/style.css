@@ -17,7 +17,7 @@ header {
 .card {
   border-style: solid;
   border-width: 1px;
-  padding: 10px;
+  padding: 20px;
   float: left;
   width: 25%;
 }
@@ -35,5 +35,26 @@ header {
 }
 
 /* TODO: Use media query to change the width of the cards so they split into two columns at 992px or smaller*/
+@media screen and (max-width: 992px) {
+  .card {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 50%;
+    background-color: aqua;
+  }
+  
+}
 
 /* TODO: Use media query to change the width of the cards so they are stacked on top of each other at 768px or smaller */
+@media screen and (max-width: 768px) {
+  .card {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 100%;
+    background-color: bisque;
+        }
+  }

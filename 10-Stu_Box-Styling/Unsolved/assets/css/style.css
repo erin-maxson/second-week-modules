@@ -72,7 +72,7 @@ footer {
   margin: 20px;
   flex: 0 0 300px;
   transform: rotate(7deg);
-  box-shadow: #13293d;
+  box-shadow: 4px 4px #13293d;
 }
 
 .card header {

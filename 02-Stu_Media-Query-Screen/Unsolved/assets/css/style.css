@@ -43,7 +43,8 @@ header {
   
   .card {
     width: 50%;
-    /* display: flex;
+    /* Flexbox setup
+    display: flex;
     justify-content: center;
     flex-direction: column;
     flex-wrap: wrap;
@@ -62,7 +63,8 @@ header {
   
   .card {
     width: 100%;
-    /* display: flex;
+    /* Flexbox setup
+    display: flex;
     justify-content: center;
     flex-direction: column;
     flex-wrap: wrap;

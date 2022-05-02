@@ -50,12 +50,8 @@ header {
     width: 50%;
     background-color: aqua; */
   }
-  
-  .color {
-    background-color: aqua;
-  }
 
-}
+  }
 
 /* TODO: Use media query to change the width of the cards so they are stacked on top of each other at 768px or smaller */
 @media screen and (max-width: 768px) {
@@ -74,7 +70,4 @@ header {
     background-color: bisque; */
         }     
 
-  .color {
-    background-color: bisque;
-  }
   }

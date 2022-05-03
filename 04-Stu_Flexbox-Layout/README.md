@@ -25,12 +25,17 @@ The following image demonstrates the web application's appearance:
 ## 💡 Hints
 
 * What additional flexbox properties could help direct the behavior of child elements?
+flex-grow
+flex-shrink
+flex-basis
+justify-content
 
 ## 🏆 Bonus
 
 If you have completed the activity and want to further your knowledge, work through the following challenge with your partner:
 
 * By default, flexbox runs in rows, left to right. In what other directions could it run?
+Column
 
 Use [Google](https://www.google.com) or another search engine to research this.
 

@@ -11,6 +11,7 @@ main {
   display: flex;
   margin-top: 2%;
   flex-wrap: wrap;
+  flex-basis: 210px;
 }
 
 .main-header {

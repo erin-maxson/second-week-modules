@@ -69,6 +69,9 @@ Formats the inside content of an area (ex: centers all objects inside of an elem
 
 /* 
 What is the flex property a shorthand property for?
+flex-grow
+flex-wrap
+flex-basis
 What is it doing here? 
 Flex is shorthand for allowing an element/class to adjust based on the browser size
 Here it's allowing the class card to "flex" or adjust to a certain size based on the total pixel size of 400px.

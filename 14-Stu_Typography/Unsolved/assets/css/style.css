@@ -19,13 +19,14 @@ header {
 h1 {
   font-size: 200%;
   font-family: serif;
-  margin: 5%;
+  margin: 5% 5%;
 }
 
 /* TODO: Change the heading size to be slightly smaller than h1, give it a margin only on the top and bottom, and assign font family to serif */
 h2 {
   font-size: 160%;
   font-family: serif;
+  margin: 2% 0% 2%;
 }
 
 /* TODO: Change header size to be slightly smaller than h2 and assign font family to serif */
@@ -70,7 +71,7 @@ article p {
 /* TODO: Add a margin to indent the list, give it square bullet points, and assign font family to monospace */
 article ul {
   text-indent: 30px;
-  list-style-type: square;
+  list-style: square;
   font-family: monospace;
 
 }

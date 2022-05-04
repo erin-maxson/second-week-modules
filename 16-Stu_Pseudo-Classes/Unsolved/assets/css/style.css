@@ -94,12 +94,11 @@ footer {
 }
 
 .resources h3:hover {
-  display: list-item;
+  
 }
 
-.resources:active {
-  visibility: visible;
-  color: maroon;
+.resources li {
+  visibility: hidden;
 }
 
 @media screen and (max-width: 768px) {

@@ -48,20 +48,31 @@ nav ul {
   min-width: 300px;
 }
 
+/* Formatting navigation URLs */
 nav a {
+  /* navigation url color = #b9C6ae */
   color: #b9C6ae;
+  /* navigation url font is bold */
   font-weight: bold;
+  /* navigation url has no text decoration */
   text-decoration: none;
 }
 
+/* Nav link hover formatting */
 nav a:hover {
+  /* Sets nav link hover color to white */
   color: #fff;
 }
 
+/* Formatting for main element */
 main {
+  /* Allows main element width to be set by browser */
   display: flex;
+  /* flex-grow and flex-shrink by 1, 0 flex-basis */
   flex: 1 1 0;
+  /* sets max width of main element to 1200px */
   max-width: 1200px;
+  /* Sets main margin to 2% on top and other margins to auto size for responsiveness */
   margin: 2% auto;
 }
 

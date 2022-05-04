@@ -76,43 +76,67 @@ main {
   margin: 2% auto;
 }
 
+/* article formatting */
 article {
+  /* adds bottom border at 1px, solid, and color of #d8a47f */
   border-bottom: 1px solid #d8a47f;
 }
 
+/* article paragraph formatting */
 article p {
+  /* adds 2% margin to top and 0px of margin to article paragraphs */
   margin: 2% 0;
+  /* article paragraph font size is 110% */
   font-size: 110%;
 }
 
+/* article list formatting */
 article ul {
+  /* adds 5% margin to the left of list */
   margin-left: 5%;
+  /* list font size is 110% */
   font-size: 110%;
+  /* circle bulleted list style  */
   list-style: circle;
 }
 
+/* form formatting */
 form {
+  /* max width of form is 400px */
   max-width: 400px;
 }
 
+/* form h3 formatting */
 form h3 {
+  /* font size of form's h3 is 150% */
   font-size: 150%;
 }
 
+/* form p formatting */
 form p {
+  /* form p has top margin of 3% */
   margin: 3% 0;
 }
 
+/* label formatting */
 label {
+  /* displays labels in block format */
   display: block;
 }
 
+/* button formatting */
 button {
+  /* adds top/bottom padding of 1% and left/right padding of 2% */
   padding: 1% 2%;
+  /* button font color is white */
   color: #fff;
+  /* button background color is black */
   background-color: #13293d;
+  /* no button border */
   border: none;
+  /* no outline on button */
   outline: none;
+  /* cursor style for button is pointer */
   cursor: pointer;
 }
 

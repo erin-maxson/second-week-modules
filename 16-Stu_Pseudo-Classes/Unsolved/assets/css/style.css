@@ -89,7 +89,13 @@ footer {
 
 /* TODO: Add styles to display and hide the resource links */
 
-li:active {
+
+.resources::before {
+  display: contents;
+  visibility: hidden;
+}
+
+.resources:active {
   visibility: visible;
   color: maroon;
 }

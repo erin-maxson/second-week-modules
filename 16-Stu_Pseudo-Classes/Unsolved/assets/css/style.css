@@ -93,13 +93,12 @@ footer {
   font-size: 30px;
 }
 
-/* Can't figure this out... */
-/* .resources h3:hover::before {
-  content: ;
-} */
+.resources:hover .list {
+  display: block;
+}
 
-.resources li {
-  visibility: hidden;
+.list {
+  display: none;
 }
 
 @media screen and (max-width: 768px) {

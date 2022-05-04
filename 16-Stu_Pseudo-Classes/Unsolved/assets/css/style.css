@@ -93,9 +93,10 @@ footer {
   font-size: 30px;
 }
 
-.resources h3:hover {
-  
-}
+/* Can't figure this out... */
+/* .resources h3:hover::before {
+  content: ;
+} */
 
 .resources li {
   visibility: hidden;

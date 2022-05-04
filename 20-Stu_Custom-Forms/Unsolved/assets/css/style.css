@@ -198,6 +198,7 @@ select:hover, button:hover {
 }
 
 /* What does this selector do? */
+/* when the checkbox is checked it shows a label after */
 .checkbox:checked + label::after {
   margin-left: 10px;
   font-size: 90%;

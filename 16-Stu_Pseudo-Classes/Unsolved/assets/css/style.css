@@ -89,10 +89,12 @@ footer {
 
 /* TODO: Add styles to display and hide the resource links */
 
+.resources h3 {
+  font-size: 30px;
+}
 
-.resources::before {
-  display: contents;
-  visibility: hidden;
+.resources h3:hover {
+  display: list-item;
 }
 
 .resources:active {

@@ -93,14 +93,18 @@ footer {
   font-size: 30px;
 }
 
+resources ul li {
+  display: none;
+}
+
 .resources:hover .list {
   display: block;
   text-decoration: underline;
 }
 
-.list {
+/* .list {
   display: none;
-}
+} */
 
 .links, a {
   color: maroon;

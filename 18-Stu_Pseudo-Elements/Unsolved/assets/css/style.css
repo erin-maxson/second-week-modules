@@ -63,10 +63,15 @@ article p {
 span[data-description] {
   position: relative;
   cursor: grab;
+  text-decoration: underline dotted;
+  color: black;
 }
 
 /* TODO: Position tooltip above the term/phrase, same color as header and nav links, no border-radius, smaller font size */
-span[data-description] 
+span[data-description]:hover::after {
+  position: absolute;
+  
+} 
 
 
 aside {

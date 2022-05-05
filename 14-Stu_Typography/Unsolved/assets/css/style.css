@@ -19,7 +19,7 @@ header {
 h1 {
   font-size: 200%;
   font-family: serif;
-  margin: 5% 5%;
+  margin: 5%;
 }
 
 /* TODO: Change the heading size to be slightly smaller than h1, give it a margin only on the top and bottom, and assign font family to serif */

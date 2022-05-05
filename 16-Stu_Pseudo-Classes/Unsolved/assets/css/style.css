@@ -101,6 +101,10 @@ footer {
   display: none;
 }
 
+.links, a {
+  color: maroon;
+}
+
 @media screen and (max-width: 768px) {
   header, main {
     flex-direction: column;

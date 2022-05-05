@@ -95,6 +95,7 @@ footer {
 
 .resources:hover .list {
   display: block;
+  text-decoration: underline;
 }
 
 .list {
@@ -103,6 +104,7 @@ footer {
 
 .links, a {
   color: maroon;
+  text-decoration: none;
 }
 
 @media screen and (max-width: 768px) {

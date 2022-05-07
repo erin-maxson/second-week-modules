@@ -1,7 +1,18 @@
 :root {
-
+--align: center;
+--dark_font: plum;
 }
 
 header {
-    color: plum;
+    color: var(--dark_font);
+    text-align: var(--align);
+}
+
+header p {
+    color: white;
+    text-align: var(--align);
+}
+
+.top-line p {
+    color: var(--dark_font);
 }

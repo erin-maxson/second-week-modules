@@ -1,11 +1,24 @@
 :root {
 --align: center;
---dark_font: plum;
+--dark_font: rgb(240, 30, 255);
+--header_padding: 20px;
+}
+
+* {
+    background-color: black;
+    width: 100%;
+}
+
+header h1 {
+    padding-top: 30px;
+    padding-bottom: var(--header_padding)
 }
 
 header {
     color: var(--dark_font);
     text-align: var(--align);
+    flex: wrap;
+    padding-bottom: var(--header_padding)
 }
 
 header p {
@@ -13,7 +26,21 @@ header p {
     text-align: var(--align);
 }
 
+.top-line {
+    width: 100%;
+    display: flex;
+    padding: 10px;
+
+}
+
+.top-line h3 {
+    border: 2px white solid;
+    color: var(--dark_font)
+}
+
 .top-line p {
+    display: inline-block;
     color: var(--dark_font);
+    border: 1px white dashed;
 }
 

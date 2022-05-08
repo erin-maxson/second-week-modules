@@ -29,8 +29,9 @@ header p {
 .top-line {
     width: 100%;
     display: flex;
+    flex-wrap: row;
     padding: 10px;
-
+    justify-content: space-evenly;
 }
 
 .top-line h3 {
@@ -44,3 +45,9 @@ header p {
     border: 1px white dashed;
 }
 
+footer {
+    color: var(--dark_font);
+    font-size: 20px;
+    font-weight: bolder;
+    text-align: var(--align);
+}
